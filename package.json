@@ -1,15 +1,34 @@
 {
-  "name": "diff-files",
+  "name": "Package-Diff-Checker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The compares the two packages, folders which contains the same file names and list their difference in csv so that user can better see differences",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiteshdua1/Package-Diff-Checker.git"
+  },
+  "keywords": [
+    "diff",
+    "folder",
+    "diff",
+    "checker",
+    "folder",
+    "difference",
+    "file",
+    "diff"
+  ],
+  "author": "Hitesh Dua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiteshdua1/Package-Diff-Checker/issues"
+  },
+  "homepage": "https://github.com/hiteshdua1/Package-Diff-Checker",
   "dependencies": {
     "diff": "^3.4.0",
     "recursive-readdir": "^2.2.1"
   }
+
 }
